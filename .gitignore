@@ -26,16 +26,9 @@ workspace.xml
 mnt/
 
 # Ignore IDE and project-related files
-GUIDE.md
-main.ipynb
-main.py
-Melanoma_Classification.iml
-README.md
-requirements.txt
-test_main.py
+
 
 # Ignore generated model files
-melanoma_predict_model.pkl
 
 # Ignore log files
 melanoma_classification.log
