@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore project-specific files and directories
+.idea/
+inspectionProfiles/
+logs/
+models/
+test_predictions.csv
+train.csv
+data/
+aws.xml
+misc.xml
+modules.xml
+other.xml
+vcs.xml
+workspace.xml
+mnt/
+
+# Ignore IDE and project-related files
+GUIDE.md
+main.ipynb
+main.py
+Melanoma_Classification.iml
+README.md
+requirements.txt
+test_main.py
+
+# Ignore generated model files
+melanoma_predict_model.pkl
+
+# Ignore log files
+melanoma_classification.log
